@@ -1,0 +1,126 @@
+/* Colors and fonts */ 
+
+
+
+body {
+background-color: #14274E;
+color: rgb(500, 500, 500);
+font-family: Arial;
+
+
+}
+
+
+h1 {
+
+font-family: Helvetica;
+font-weight: 50;
+letter-spacing: 10px; 
+font-size: 60px; 
+text-transform: uppercase;
+
+
+}
+
+.card {
+border-top:20px ; 
+border-bottom:20px ;
+border-left:10px ;
+border-right:10px ;
+text-align: center;
+box-shadow: 0 15px 35px rgba(50,50,93,.1); 
+border-radius: 20px;
+}
+.container{
+padding: 30px auto;
+align-items: center;
+margin: 0 auto;
+text-align: center;
+display: center;
+
+
+}
+.list-inline {
+text-decoration: white;
+color: white; 
+}
+.list-inline: hover {
+color: yellow;
+
+}
+
+img {
+width: 150px;
+border-radius: 100%;
+}
+
+	
+
+li {
+text-decoration: none;
+list-style: none;
+display: inline;
+}
+
+ul {
+padding-left: 0px;
+}
+
+.btn-red {
+background-color: #6B72E1;
+color: white;
+padding: 15px 20px;
+border-radius: 4px;
+text-decoration: none;
+
+
+}
+.btn: hover {
+background-color: black;
+color: white;
+}
+
+.btn {
+margin: 10px; 
+border: 2px white;
+text-align: center;
+}
+
+.card {
+background: #394867;
+border: 2px white;
+margin: 30px; 
+padding: 10px;
+}
+
+@media (max-width: 500px) {
+.container {
+width: 600px;
+	}
+}
+	
+/* Custom design with class */
+
+.container {
+width: 150px;
+margin: 10px auto;
+
+
+}
+.image-circle {
+	border-radius: 50%;
+}
+.list-inline a {
+	list-style: none;
+	font-size: 60px;
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
